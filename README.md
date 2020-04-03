@@ -5,12 +5,14 @@ For example if you're building your x-axis out of 'time', make sure you only hav
 
 
 For vim users on linux: this is as easy as opening up **a copy** (if you fuck up your original file don't come crying back to me) in vim and grepping for watts and time:
+	
 	:%!grep -i "<watts>\|<time>"
 
 by default the x-axis is set to time, and y axis to watts, feel free to change it to whatever you want by editing powercompare.py
 
 #how to use
 launch powercompare.py with filenames as arguments:
+	
 	$ powercompare.py ramp.tcx ramptest.tcx
 
 that's it
